@@ -1,5 +1,13 @@
 .venv/
 venv/
 .__pycache__/
+__pycache__
 .gitattributes
 .env
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+ngrok
+.python-version
