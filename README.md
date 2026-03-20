@@ -21,7 +21,7 @@ graph TD
     
     subgraph Backend Experts
         API --> VAD[VAD Expert]
-        VAD -->/ DIAR[Diarization Expert]
+        VAD --> DIAR[Diarization Expert]
         DIAR --> ASR[ASR & Translation Expert]
         ASR --> LING[Linguistic Expert]
         
